@@ -1,0 +1,39 @@
+html{
+    width: 100%;
+    overflow-x: hidden;
+}
+.container{
+	position: absolute;
+	width: 100%;
+	margin: 0 auto;
+	background: #f9f9f9;
+	font-size: 24px;
+}
+.parallax1{
+	background: url("../img/clean.png") no-repeat center;
+	overflow-y: hidden;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 650px;
+}
+.parallax2{
+	background: url("../img/city.png") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 650px;
+}
+h1{
+  position: relative;
+  text-align: center;
+  font-size: 80px;
+  color: lightblue;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+p{
+	text-align: justify;
+	font-size: 30px; 
+	font-family: 'Exo', sans-serif;
+	margin: 20px;
+}
